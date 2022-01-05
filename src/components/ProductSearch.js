@@ -8,7 +8,7 @@ class ProductSearch extends React.Component{
                 <input type= "submit" required placeholder="product" />
                 <button type="submit"> Search 🔍 </button>   
             </form>
-        )
+        );
     }
 }
 
