@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './css/style.css';
-import App from './App';
 //Importing components for reusability
 import ProductSearch from './components/ProductSearch'; 
 import ProductCategory from './components/ProductCategory'; 
@@ -11,4 +10,7 @@ import Ratings from './components/Ratings';
 import Contacts from './components/Contacts'; 
 import Help from './components/Help'; 
 
-render(<ProductSearch />, document.querySelector('#main'))
+render(
+    <ProductSearch /> ,
+    document.querySelector('#main') 
+  );
